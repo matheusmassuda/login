@@ -11,6 +11,7 @@
 @media screen and (min-width: 768px) and (max-width: 992px) {
     section#login {
         width: 85vw;
+        height: 330px;
     }    
 
     section#login > div#image {
@@ -24,18 +25,18 @@
         width: 72%;
         height: 100%;
     }
+
+    div.campo > input {
+        background-color: #84dfdc;
+        font-size: 1em;
+        width: 89.5%;
+        height: 100%;
+        transform: translateY(-11px);
+        border: none;
+        border-radius: 5px;
+        padding: 5px;
+    }
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -47,6 +48,7 @@
 
     section#login {
         width: 950px;
+        height: 390px;
     }
 
     section#login > div#image {
@@ -68,5 +70,16 @@
 
     div#form > p {
         font-size: 1.4em;
+    }
+
+    div.campo > input {
+        background-color: #84dfdc;
+        font-size: 1em;
+        width: 92.85%;
+        height: 100%;
+        transform: translateY(-11px);
+        border: none;
+        border-radius: 5px;
+        padding: 5px;
     }
 }
