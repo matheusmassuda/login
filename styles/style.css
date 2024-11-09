@@ -40,8 +40,8 @@ section#login {
     box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, .18);
     
     background: white;
-    width: 280px;
-    height: 500px;
+    width: 320px;
+    height: 580px;
     border-radius: 15px;
     
     transform: translate(-50%, -50%);
@@ -98,12 +98,12 @@ div.campo > i {
 div.campo > input {
     background-color: #84dfdc;
     font-size: 1em;
-    width: 82.15%;
+    width: 83.8%;
     height: 100%;
     border: none;
     border-radius: 5px;
     padding: 5px;
-    transform: translateY(-11px);
+    transform: translateY(-10px);
 }
 
 div.campo > input:focus-within {
