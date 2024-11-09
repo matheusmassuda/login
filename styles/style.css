@@ -37,12 +37,15 @@ section#login {
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
-    box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, .1);
+    box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, .18);
 
     background: white;
     width: 280px;
     height: 500px;
     border-radius: 15px;
+
+    transition: width .22s, height .22s;
+    transition-timing-function: ease;
 }
 
 section#login > div#image {

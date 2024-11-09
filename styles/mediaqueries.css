@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+:root {
+    --main-color: #49a09d;
+    --secondary-color: #5f2c82; 
+    --tertiary-color: #af0a70;
+    --quaternary-color: #0e3e7e;
+}
+
+/*Outras medias -----------------------------------*/
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    section#login {
+        width: 85vw;
+    }    
+
+    section#login > div#image {
+        float: left;
+        width: 28%;
+        height: 100%;
+    }
+
+    section#login > div#form {
+        float: right;
+        width: 72%;
+        height: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Telas Grandes -----------------------------------*/
+@media screen and (min-width: 992px) {
+    body {
+        background-image: linear-gradient(to top, var(--tertiary-color), var(--quaternary-color));
+    }
+
+    section#login {
+        width: 950px;
+    }
+
+    section#login > div#image {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    section#login > div#form {
+        float: right;
+        width: 70%;
+        height: 100%;
+    }
+    
+}
