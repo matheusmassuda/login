@@ -4,7 +4,7 @@
     --main-color: #49a09d;
     --secondary-color: #5f2c82; 
     --tertiary-color: #af0a70;
-    --quaternary-color: #0e3e7e;
+    --quaternary-color: #237cc5;
 }
 
 /*Outras medias -----------------------------------*/
@@ -42,7 +42,7 @@
 /*Telas Grandes -----------------------------------*/
 @media screen and (min-width: 992px) {
     body {
-        background-image: linear-gradient(to top, var(--tertiary-color), var(--quaternary-color));
+        background-image: linear-gradient(to top, var(--quaternary-color), var(--tertiary-color));
     }
 
     section#login {
@@ -50,15 +50,23 @@
     }
 
     section#login > div#image {
-        float: left;
+        float: right;
         width: 30%;
         height: 100%;
     }
 
     section#login > div#form {
-        float: right;
+        float: left;
         width: 70%;
         height: 100%;
     }
-    
+
+    div#form > h1 {
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+
+    div#form > p {
+        font-size: 1.4em;
+    }
 }
