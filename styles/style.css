@@ -7,7 +7,8 @@
 */
 
 :root {
-    --main-color: #49a09d;
+    --main-color: #57ebe6;
+    --main-color-hover: #1b7e7a;
     --secondary-color: #5f2c82; 
     --tertiary-color: #af0a70;
 }
@@ -59,6 +60,7 @@ section#login > div#image {
 section#login > div#form {
     display: block;
     padding: 10px;
+    
 }
 
 div#form > h1 {
@@ -68,4 +70,66 @@ div#form > h1 {
 
 div#form > p {
     font-size: .88em;
+    margin: 0 10%;
+}
+
+form > div.campo {
+    background-color: var(--tertiary-color);
+    width: 80%;
+    height: 34px;
+    border-radius: 5px;
+    margin: 5px 0px;
+    display: block;
+    margin: 10px 10%;
+    margin-bottom: 18px;
+}
+
+div.campo > label {
+    display: none;
+    
+}
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 80%;
+    height: 34px;
+    background: var(--main-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 35px;
+}
+
+form > input[type=submit]:hover {
+    background: var(--main-color-hover);
+}
+
+form > a.btn-entrar {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 80%;
+    height: 34px;
+    background-color: white;
+    color: var(--main-color-hover);
+    border: 1px solid var(--main-color-hover);
+    border-radius: 5px;
+    text-decoration: none;
+    padding-top: 7px;
+    margin: auto;
+    margin-top: 5px;
+}
+
+form > a.btn-entrar:hover {
+    background-color: var(--main-color);
+    color: white;
+}
+
+
+
+form > a.btn-entrar > i {
+    font-size: .85em;
 }
